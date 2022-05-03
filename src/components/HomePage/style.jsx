@@ -4,6 +4,7 @@ export default styled.div`
     pointer;
 
   height: 100 vmin;
+
   h1 {
     font-size: 8;
     color: red;
@@ -22,6 +23,7 @@ export default styled.div`
     font-style: oblique;
     text-transform: uppercase;
   }
+
   button {
     color: red;
     background: #2529ab;
@@ -35,18 +37,6 @@ export default styled.div`
     padding: 20px;
     width: 200px;
     margin: 5px;
-
-    /* background: none;
-    border: 4px solid #fff;
-    border-radius: 10px;
-    color: #fff;
-    display: block;
-    font-size: 1.6em;
-    font-weight: bold;
-    margin: 10px auto;
-    padding: 2em 6em;
-    position: relative;
-    text-transform: uppercase; */
   }
   button:hover {
     cursor: url(https://cdn.custom-cursor.com/db/6670/32/naruto-itachi-uchiha-and-crow-cursor.png),

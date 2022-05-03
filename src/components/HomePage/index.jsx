@@ -4,10 +4,12 @@ import Rayleigh from '../../assets/Rayleigh.jpg';
 import Rocks from '../../assets/Rocks.jpg';
 import Shanks from '../../assets/shanks.jpg';
 import Footer from '../footer';
-// FAIRE UNE CARD avec comme modèle les fiches wanted, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL, connecter une api
+import Navbar from '../navbar';
+// FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
 function Demo() {
   return (
     <SDemo>
+      <Navbar />
       <h1>Démonstration WILD CODE SCHOOL</h1>
       <img src={law} alt='logo' className='logoLaw' />
       <button>Update</button>
