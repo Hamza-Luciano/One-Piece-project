@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 export default styled.div`
-  cursor: url(https://cdn.custom-cursor.com/db/11229/32/pac-man-3d-championship-edition-2-pointer.png),
-    pointer;
-
   height: 100 vmin;
 
   h1 {
@@ -43,12 +40,9 @@ export default styled.div`
       pointer;
   }
 
-  .logoLaw {
-    width: 15vh;
-  }
-  .images {
-    height: 18vw;
-    align-items: center;
+  img {
+    height: 100%;
+    width: 100%;
   }
   .texte {
     text-align: justify;
@@ -58,11 +52,11 @@ export default styled.div`
     letter-spacing: 2px;
     word-spacing: 2px;
   }
-  .merry {
-    height: 11rem;
-  }
+
   .line1 {
     display: flex;
+    height: 100%;
+    width: 100%;
     justify-content: space-between;
   }
 `;

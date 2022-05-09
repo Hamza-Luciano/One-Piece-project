@@ -1,17 +1,70 @@
 import SDemo from './style';
-import law from '../../assets/law.jpg';
 import Rayleigh from '../../assets/Rayleigh.jpg';
 import Rocks from '../../assets/Rocks.jpg';
 import Shanks from '../../assets/shanks.jpg';
 import Footer from '../footer';
 import Navbar from '../navbar';
-// FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
+
+// pour ajouter un bouton spoil ou no spoil
+// import React, { Component } from 'react';
+
+// function Button(props) {
+//   const { active, handleChange } = props;
+//   return (
+//     <button
+//       className={active ? 'button-on' : 'button-off'}
+//       onClick={handleChange}
+//       type="button"
+//     >
+//       {active ? 'on' : 'off'}
+//     </button>
+//   );
+// }
+
+// export default Button;
+
+// Component Button
+
+// ensuite component checkbox:
+// import React, { Component } from 'react';
+
+// function Checkbox(props) {
+//   const { active, handleChange } = props;
+//   return <input type="checkbox" onChange={handleChange} checked={active} />;
+// }
+
+// export default Checkbox;
+
+// et dans app.JS:
+
+// import React from 'react';
+// import Checkbox from './components/Checkbox';
+// import Button from './components/Button';
+// import './App.css';
+
+// function App() {
+//   const [active, setActive] = React.useState(true);
+
+//   function handleChange() {
+//     setActive(!active);
+//   }
+
+//   return (
+//     <div className="App">
+//       <Checkbox active={active} handleChange={handleChange} />
+//       <Button active={active} handleChange={handleChange} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// INTEGRER LOGO DANS LA NAVBAR FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece ou la créer, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
 function Demo() {
   return (
     <SDemo>
       <Navbar />
       <h1>Démonstration WILD CODE SCHOOL</h1>
-      <img src={law} alt='logo' className='logoLaw' />
       <button>Update</button>
       <div className='images'>
         <p className='sousTitre'>Grand Line</p>
