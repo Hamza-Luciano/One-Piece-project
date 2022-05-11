@@ -1,10 +1,12 @@
-import Demo from './components/HomePage';
+import Footer from "./components/footer";
+import Main from "./main";
 
 function App() {
   return (
-    <div>
-      <Demo />
-    </div>
+    <>
+      <Main />
+      <Footer />
+    </>
   );
 }
 
