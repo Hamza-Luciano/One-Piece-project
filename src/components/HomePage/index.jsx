@@ -1,9 +1,8 @@
-import SDemo from './style';
-import Rayleigh from '../../assets/Rayleigh.jpg';
-import Rocks from '../../assets/Rocks.jpg';
-import Shanks from '../../assets/shanks.jpg';
-import Footer from '../footer';
-import Navbar from '../navbar';
+import SHome from "./style";
+import Rayleigh from "../../assets/Rayleigh.jpg";
+import Rocks from "../../assets/Rocks.jpg";
+import Shanks from "../../assets/shanks.jpg";
+import Navbar from "../navbar";
 
 // pour ajouter un bouton spoil ou no spoil
 // import React, { Component } from 'react';
@@ -59,22 +58,22 @@ import Navbar from '../navbar';
 
 // export default App;
 
-// INTEGRER LOGO DANS LA NAVBAR FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece ou la créer, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
-function Demo() {
+// INTEGRER FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece ou la créer, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
+function Home() {
   return (
-    <SDemo>
+    <SHome>
       <Navbar />
       <h1>Démonstration WILD CODE SCHOOL</h1>
       <button>Update</button>
-      <div className='images'>
-        <p className='sousTitre'>Grand Line</p>
-        <div className='line1'>
+      <div className="images">
+        <p className="sousTitre">Grand Line</p>
+        <div className="line1">
           <img
-            src='https://www.serieously.com/app/uploads/2022/03/one-piece-grand-line.jpg'
-            alt='carte de Grand Line'
+            src="https://www.serieously.com/app/uploads/2022/03/one-piece-grand-line.jpg"
+            alt="carte de Grand Line"
           />
           {/* CHANGE IMAGE OF GRAND LINE, IMPORT... */}
-          <p className='texte'>
+          <p className="texte">
             FAIRE UNE PAGE AVEC LES ILES DECOUVERTES, SOUS FORME DE CHEMIN, LES
             PEUPLES, PAGE FRUIT DU DEMON, MARINE...
             <br /> <br /> Grand Line est l'océan actuel qui suit une ligne
@@ -92,20 +91,17 @@ function Demo() {
             autrement dit plus difficile à détecter, pour les monstres marins
           </p>
         </div>
-        <p className='sousTitre'> Rayleigh</p>
+        <p className="sousTitre"> Rayleigh</p>
 
-        <img src={Rayleigh} alt='Rayleigh' />
+        <img src={Rayleigh} alt="Rayleigh" />
 
-        <p className='sousTitre'>Rocks D. Xebec</p>
-        <img src={Rocks} alt='Rocks' />
-        <p className='sousTitre'>Shanks le Roux</p>
-        <img src={Shanks} alt='Shanks' />
-        <Footer />
+        <p className="sousTitre">Rocks D. Xebec</p>
+        <img src={Rocks} alt="Rocks" />
+        <p className="sousTitre">Shanks le Roux</p>
+        <img src={Shanks} alt="Shanks" />
       </div>
-
-      {/* pour les images faire un background url dans le style.jsx */}
-    </SDemo>
+    </SHome>
   );
 }
 
-export default Demo;
+export default Home;
