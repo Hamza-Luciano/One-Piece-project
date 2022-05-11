@@ -6,6 +6,7 @@ function Footer() {
   return (
     <SFooter>
       <Link to="/contact"> Contact</Link>
+      <Link to="/"> Home</Link>
       Mentions légales
     </SFooter>
   );
