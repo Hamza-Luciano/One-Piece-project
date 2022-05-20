@@ -1,13 +1,25 @@
 import styled from "styled-components";
 export default styled.div`
-  div {
-    font-size: 35px;
-    padding: 82px;
+  .barre {
     background-color: blue;
-    display: flex;
-    justify-content: center;
   }
-  .logoOP {
-    height: 100%;
+  .logoOp {
+    width: 39vw;
+  }
+  .title {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* .barre {
+    display: flex;
+  } */
+  .nom {
+    display: flex;
+    font-size: 1.3rem;
+    /* justify-content: space-evenly; */
+
+    justify-content: space-between;
   }
 `;
+
+// ESPACER LES NOMS DE PAGES

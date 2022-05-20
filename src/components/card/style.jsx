@@ -49,5 +49,14 @@ export default styled.div`
     padding: inherit;
     margin: initial;
   }
+  .texte {
+    background-color: red;
+    width: 11rem;
+    height: 3rem;
+    margin-left: -5%;
+    margin-top: -12%;
+    font-size: xx-small;
+    line-height: -0.5rem;
+  }
   /* wanted régler l'opacité du titre + chercher background-color de la couleur des cards arrière-plan; */
 `;

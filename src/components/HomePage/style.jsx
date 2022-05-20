@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 export default styled.div`
   height: 100 vmin;
 
@@ -55,6 +55,7 @@ export default styled.div`
 
   .line1 {
     display: flex;
+    justify-content: center;
     height: 100%;
     width: 100%;
     justify-content: space-between;
