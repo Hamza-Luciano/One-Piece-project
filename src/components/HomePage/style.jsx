@@ -8,16 +8,16 @@ export default styled.div`
     text-align: center;
   }
   .sousTitre {
-    border: 6px inset #142ca4;
+    /* border: 6px inset #142ca4; */
+    /* border: 6px inset #ff0000; */
+    border: thick groove #ff0000;
+    margin-right: 12rem;
     height: 1rem;
-    display: ruby-text;
-    margin-right: 56rem;
     font-family: Georgia, serif;
     font-size: 16px;
     letter-spacing: 2px;
     word-spacing: 2px;
     font-weight: 400;
-    font-style: oblique;
     text-transform: uppercase;
   }
 
