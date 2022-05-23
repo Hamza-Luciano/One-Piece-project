@@ -5,6 +5,7 @@ import Home from "./components/HomePage";
 import Lieux from "./components/Lieux";
 import Marine from "./components/Marine";
 import Mugiwara from "./components/Mugiwara";
+import Mystères from "./components/Mystères";
 import Pirates from "./components/Pirates";
 import Revolutionnaires from "./components/Revolutionnaires";
 import Yonkou from "./components/Yonkou";
@@ -21,6 +22,7 @@ function Main() {
         <Route path="/yonkou" element={<Yonkou />} />
         <Route path="/mugiwara" element={<Mugiwara />} />
         <Route path="/marine" element={<Marine />} />
+        <Route path="/mystères" element={<Mystères />} />
         <Route path="/revolutionnaires" element={<Revolutionnaires />} />
       </Routes>
     </main>
