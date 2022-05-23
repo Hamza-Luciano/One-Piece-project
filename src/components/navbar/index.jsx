@@ -17,7 +17,11 @@ function Navbar() {
         <div className="nom">
           <Link to="/wanted">Wanted</Link>
           <Link to="/lieux">Lieux</Link>
-          <p>mystéres</p>
+          <Link to="/pirates">Pirates</Link>
+          <Link to="/yonkou">Yonkou</Link>
+          <Link to="/marine">Marine</Link>
+          <Link to="/revolutionnaires">Revolutionnaires</Link>
+          <Link to="/mugiwara">Mugiwara</Link>
         </div>
       </div>
       <div className="App"></div>

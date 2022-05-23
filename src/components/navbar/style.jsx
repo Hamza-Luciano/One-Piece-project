@@ -2,6 +2,7 @@ import styled from "styled-components";
 export default styled.div`
   .barre {
     background-color: blue;
+    font-size: 1rem;
   }
   .logoOp {
     width: 39vw;
@@ -10,15 +11,10 @@ export default styled.div`
     display: flex;
     justify-content: space-evenly;
   }
-  /* .barre {
-    display: flex;
-  } */
   .nom {
     display: flex;
-    font-size: 1.3rem;
-    /* justify-content: space-evenly; */
-
-    justify-content: space-between;
+    font-size: 1rem;
+    justify-content: space-evenly;
   }
 `;
 
