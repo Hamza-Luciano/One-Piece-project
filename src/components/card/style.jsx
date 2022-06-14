@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import wanted from "../../assets/wanted.png";
 export default styled.div`
+  //bonne pratique ???
+  display: flex;
+  justify-content: center;
+
   .card {
     background-image: url(${wanted});
     width: 17rem;

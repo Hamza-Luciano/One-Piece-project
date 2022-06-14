@@ -2,27 +2,16 @@ import SHome from "./style";
 import Rayleigh from "../../assets/Rayleigh.jpg";
 import Rocks from "../../assets/Rocks.jpg";
 import Shanks from "../../assets/shanks.jpg";
+// import objLuffy from "../Mugiwara/index";
 
-// export default App;
-
-// INTEGRER FAIRE UNE CARD avec comme modèle les fiches wanted, mediaquerry, API One Piece ou la créer, UN MENU BURGER, UN CARROUSSEL, MENTION LEGAL, CONTACT AVEC UNE MODAL qui affiche mes infos en mode carte wanted, connecter une api
 function Home() {
   return (
     <SHome>
       <h1>Démonstration WILD CODE SCHOOL</h1>
       <button>Update</button>
       <div className="images">
-        <p className="sousTitre">Grand Line</p>
-        <div className="line1">
-          <img
-            src="https://www.serieously.com/app/uploads/2022/03/one-piece-grand-line.jpg"
-            alt="carte de Grand Line"
-          />
-        </div>
         {/* CHANGE IMAGE OF GRAND LINE, IMPORT... */}
         <p className="texte">
-          FAIRE UNE PAGE AVEC LES ILES DECOUVERTES, SOUS FORME DE CHEMIN, LES
-          PEUPLES, PAGE FRUIT DU DEMON, MARINE...
           <br /> <br /> Grand Line est l'océan actuel qui suit une ligne
           imaginaire qui s'étend du Nord-Ouest au Sud-Est dans le milieu du
           monde et perpendiculaire à Red Line. Red Line est un vaste continent
@@ -37,8 +26,10 @@ function Home() {
           du Granit Marin - cela les rend "invisible", autrement dit plus
           difficile à détecter, pour les monstres marins
         </p>
-        <p className="sousTitre"> Rayleigh</p>
+        <p className="sousTitre"> Rayleigh </p>
+        {/* Chercher pour la const présente dans index Mugiwara ne s'affiche pas
 
+        <p>{objLuffy}</p> */}
         <img src={Rayleigh} alt="Rayleigh" />
 
         <p className="sousTitre">Rocks D. Xebec</p>

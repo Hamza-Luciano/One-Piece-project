@@ -5,7 +5,7 @@ export default styled.div`
     font-size: 1rem;
   }
   .logoOp {
-    width: 39vw;
+    width: 30vw;
   }
   .title {
     display: flex;
@@ -15,6 +15,9 @@ export default styled.div`
     display: flex;
     font-size: 1rem;
     justify-content: space-evenly;
+  }
+  .titleNav {
+    color: #ff0000;
   }
 `;
 

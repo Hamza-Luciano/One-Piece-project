@@ -22,7 +22,7 @@ function Main() {
         <Route path="/yonkou" element={<Yonkou />} />
         <Route path="/mugiwara" element={<Mugiwara />} />
         <Route path="/marine" element={<Marine />} />
-        <Route path="/mystères" element={<Mystères />} />
+        <Route path="/mysteres" element={<Mystères />} />
         <Route path="/revolutionnaires" element={<Revolutionnaires />} />
       </Routes>
     </main>

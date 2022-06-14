@@ -2,6 +2,8 @@ import SCard from "./style";
 import luffy from "../../assets/luffy.png";
 import berry2 from "../../assets/berry2.gif";
 
+//ajouter ZOro
+
 function Card() {
   return (
     <SCard>
@@ -14,7 +16,7 @@ function Card() {
           <p className="dead">DEAD OR ALIVE</p>
           <p className="name">MONKEY. D. LUFFY</p>
           <p className="price">
-            <img src={berry2} alt="ff" className="berry" /> 30.000.000
+            <img src={berry2} alt="berry" className="berry" /> 30.000.000
           </p>
           <p className="marine">MARINE</p>
         </div>

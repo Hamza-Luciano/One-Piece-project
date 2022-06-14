@@ -8,9 +8,8 @@ export default styled.div`
     text-align: center;
   }
   .sousTitre {
-    /* border: 6px inset #142ca4; */
-    /* border: 6px inset #ff0000; */
     border: thick groove #ff0000;
+    width: 90vw;
     margin-right: 12rem;
     height: 1rem;
     font-family: Georgia, serif;
@@ -46,7 +45,7 @@ export default styled.div`
   }
   .texte {
     text-align: justify;
-    color: blueviolet;
+    color: #ff3300;
     font-family: Georgia, serif;
     font-size: 16px;
     letter-spacing: 2px;
@@ -59,5 +58,38 @@ export default styled.div`
     height: 100%;
     width: 100%;
     justify-content: space-between;
+  }
+  /* explication : https://www.codeur.com/tuto/css/pseudo-elements-after-before-css/#quest-ce_que_les_pseudo-elements_css_%c2%ab_before_%c2%bb_et_%c2%ab_after_%c2%bb */
+  .texte {
+    display: block;
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    border: 8px #d3d3d3 solid;
+  }
+  .texte:before,
+  .texte:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px #346abf solid;
+    transition: all 0.8s;
+  }
+  .texte:before {
+    top: -8px;
+    left: -8px;
+    border-width: 8px 0 0 8px;
+  }
+  .texte:after {
+    bottom: -8px;
+    right: -8px;
+    border-width: 0 8px 8px 0;
+  }
+  .texte:hover.texte:before,
+  .texte:hover.texte:after {
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
   }
 `;
